@@ -1,0 +1,30 @@
+extends layout
+
+block content
+  form(action='' method='post')
+    label(for='name') Name:
+    br
+    input#name(type='text' name='name')
+    br
+    label(for='author') Author:
+    br
+    input#type(type='text' name='author')
+    br
+    label(for='genre') Genre:
+    br
+    input#type(type='text' name='genre')
+    br
+    label(for='publisher') Publisher:
+    br
+    input#type(type='text' name='publisher')
+    br
+    label(for='price') Price:
+    br
+    input#type(type='text' name='price')
+    br
+    label(for='pages') Pages:
+    br
+    input#type(type='text' name='pages')
+    br
+    br
+    input(type='submit' value='Submit')

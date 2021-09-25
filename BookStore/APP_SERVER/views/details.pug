@@ -1,0 +1,10 @@
+extends layout
+
+block content
+     ul
+      li Name: #{currentBook.name}
+      li Author: #{currentBook.author}
+      li Genre: #{currentBook.genre}
+      li Publisher: #{currentBook.publisher}
+      li Price: #{currentBook.otherinfo.price}
+      li Pages: #{currentBook.otherinfo.pages}
